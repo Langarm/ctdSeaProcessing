@@ -1,0 +1,848 @@
+COPY CTD RAW FILES 
+    EK188002[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188002[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188002 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188002 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188002.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188002 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188003[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188003[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188003 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188003 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188003.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188003 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188004[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188004[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188004 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188004 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188004.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188004 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188005[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188005[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188005 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188005 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188005.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188005 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188006[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188006[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188006 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188006 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188006.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188006 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188007[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188007[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188007 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188007 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188007.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188007 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188008[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188008[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188008 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188008 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188008.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188008 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188009[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188009[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188009 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188009 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188009.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188009 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188010[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188010[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188010 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188010 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188010.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188010 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188011[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188011[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188011 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188011 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188011.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188011 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188012[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188012[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188012 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188012 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188012.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188012 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188013[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188013[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188013 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188013 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188013.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188013 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188014[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188014[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188014 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188014 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188014.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188014 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188015[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188015[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188015 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188015 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188015.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188015 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188016[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188016[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188016 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188016 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188016.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188016 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188017[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188017[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188017 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188017 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188017.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188017 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188018[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188018[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188018 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188018 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188018.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188018 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188019[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188019[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188019 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188019 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188019.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188019 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188020[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188020[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188020 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188020 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188020.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188020 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188021[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188021[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188021 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188021 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188021.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188021 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188022[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188022[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188022 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188022 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188022.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188022 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188023[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188023[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188023 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188023 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188023.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188023 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188024[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188024[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188024 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188024 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188024.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188024 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188025[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188025[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188025 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188025 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188025.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188025 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188026[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188026[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188026 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188026 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188026.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188026 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188027[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188027[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188027 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188027 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188027.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188027 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188028[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188028[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188028 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188028 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188028.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188028 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188029[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188029[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188029 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188029 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188029.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188029 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188030[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188030[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188030 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188030 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188030.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188030 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188031[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188031[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188031 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188031 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188031.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188031 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188032[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188032[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188032 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188032 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188032.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188032 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188033[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188033[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188033 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188033 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188033.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188033 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188034[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188034[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188034 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188034 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188034.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188034 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188035[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188035[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188035 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188035 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188035.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188035 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188036[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188036[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188036 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188036 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188036.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188036 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188037[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188037[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188037 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188037 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188037.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188037 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188038[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188038[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188038 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188038 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188038.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188038 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188039[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188039[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188039 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188039 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188039.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188039 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188040[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188040[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188040 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188040 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188040.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188040 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188041[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188041[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188041 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188041 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188041.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188041 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188042[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188042[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188042 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188042 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188042.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188042 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188043[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188043[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188043 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188043 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188043.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188043 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188044[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188044[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188044 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188044 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188044.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188044 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188045[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188045[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188045 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188045 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188045.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188045 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188046[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188046[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188046 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188046 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188046.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188046 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188047[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188047[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188047 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188047 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188047.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188047 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188048[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188048[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188048 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188048 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188048.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188048 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188049[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188049[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188049 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188049 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188049.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188049 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188050[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188050[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188050 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188050 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188050.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188050 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188051[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188051[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188051 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188051 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188051.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188051 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188052[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188052[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188052 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188052 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188052.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188052 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188053[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188053[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188053 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188053 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188053.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188053 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
+COPY CTD RAW FILES 
+    EK188054[.hex, .XMLCON, .bl] from c:\SEASOFT\\SOLSTICE-EK188\data\ to C:/\SOLSTICE-EK188\data-raw\CTD\ 
+    EK188054[.hex, .xmlcon, .bl] from C:/\SOLSTICE-EK188\data-raw\CTD\ to C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\ 
+END OF CTD COPY PROCESS 
+
+ CTD SBE PROCESSING 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\std.batch EK188054 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SBE Processing 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\seaplot.batch EK188054 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the SeaPlot Processing 
+!ConReport.exe C:/\SOLSTICE-EK188\data-processing\CTD\data\raw\EK188054.xmlcon C:/\SOLSTICE-EK188\data-processing\CTD\data\reports 
+    Report File generated 
+!SBEBatch.exe C:/\SOLSTICE-EK188\data-processing\CTD\batch\btl.batch EK188054 C:/\SOLSTICE-EK188\data-processing\CTD\  
+    End of the bottles .ros processing 
+    End of the bottles .ros processing 
+END OF CTD SBE PROCESSING 
